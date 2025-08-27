@@ -74,3 +74,6 @@ else
 	vim.notify("If you see this you haven't configured your stuff!\nDon't forget to take a peek at your ~/.config/nvim",
 		vim.log.levels.ERROR, { title = "42-Nvim" })
 end
+vim.opt.autoread = true
+vim.opt.swapfile = false
+
